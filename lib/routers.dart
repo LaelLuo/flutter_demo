@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:flutter_picker_demo/pages/chip/page.dart';
 import 'package:flutter_picker_demo/pages/counter/page.dart';
 import 'package:flutter_picker_demo/pages/custom_paint/page.dart';
 import 'package:flutter_picker_demo/pages/home/page.dart';
@@ -11,6 +12,7 @@ var routers = <dynamic>[
   PickerPage(),
   TransformPage(),
   CustomPaintPage(),
+  ChipPage(),
 ];
 
 Map<String, WidgetBuilder> get routerMap {
