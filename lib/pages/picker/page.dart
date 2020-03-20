@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_picker/flutter_picker.dart';
 import 'package:flutter_picker_demo/core/base/base_widget.dart';
 
-class PickerPage extends BaseStatefulWidget {
+class PickerPage extends StatefulWidget with Page {
   @override
   _PickerPageState createState() => _PickerPageState();
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_picker_demo/core/base/base_widget.dart';
 
-class ChipPage extends BaseStatefulWidget {
+class ChipPage extends StatefulWidget with Page{
   @override
   _ChipPageState createState() => _ChipPageState();
 

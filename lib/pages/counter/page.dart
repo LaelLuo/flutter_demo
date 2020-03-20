@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_picker_demo/core/base/base_widget.dart';
 
-class CounterPage extends BaseStatefulWidget {
+class CounterPage extends StatefulWidget with Page {
   CounterPage({Key key}) : super(key: key);
 
   @override

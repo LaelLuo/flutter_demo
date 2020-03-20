@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:flutter_picker_demo/pages/can_touch_header/page.dart';
 import 'package:flutter_picker_demo/pages/chip/page.dart';
 import 'package:flutter_picker_demo/pages/counter/page.dart';
 import 'package:flutter_picker_demo/pages/custom_paint/page.dart';
@@ -15,6 +16,7 @@ var routers = <dynamic>[
   CustomPaintPage(),
   ChipPage(),
   NestedScrollViewListPage(),
+  CanTouchHeaderPage(),
 ];
 
 Map<String, WidgetBuilder> get routerMap {

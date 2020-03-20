@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_picker_demo/core/base/base_widget.dart';
 import 'package:flutter_picker_demo/pages/custom_paint/widgets/gradient_circular_progress_indicator.dart';
 
-class CustomPaintPage extends BaseStatefulWidget {
+class CustomPaintPage extends StatefulWidget with Page {
   @override
   _CustomPaintPageState createState() => _CustomPaintPageState();
 

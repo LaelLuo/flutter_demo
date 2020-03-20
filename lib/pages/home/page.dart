@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_picker_demo/core/base/base_widget.dart';
 import 'package:flutter_picker_demo/routers.dart';
 
-class HomePage extends BaseStatelessWidget {
+class HomePage extends StatelessWidget with Page {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_picker_demo/core/base/base_widget.dart';
 import 'package:flutter_picker_demo/pages/transform/widgets/main_list_item.dart';
 
-class TransformPage extends BaseStatefulWidget {
+class TransformPage extends StatefulWidget with Page {
   @override
   _TransformPageState createState() => _TransformPageState();
 
