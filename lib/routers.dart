@@ -4,6 +4,7 @@ import 'package:flutter_picker_demo/pages/chip/page.dart';
 import 'package:flutter_picker_demo/pages/counter/page.dart';
 import 'package:flutter_picker_demo/pages/custom_paint/page.dart';
 import 'package:flutter_picker_demo/pages/home/page.dart';
+import 'package:flutter_picker_demo/pages/many_request/page.dart';
 import 'package:flutter_picker_demo/pages/nested_scroll_view_list/page.dart';
 import 'package:flutter_picker_demo/pages/picker/page.dart';
 import 'package:flutter_picker_demo/pages/transform/page.dart';
@@ -17,6 +18,7 @@ var routers = <dynamic>[
   ChipPage(),
   NestedScrollViewListPage(),
   CanTouchHeaderPage(),
+  ManyRequestPage(),
 ];
 
 Map<String, WidgetBuilder> get routerMap {
