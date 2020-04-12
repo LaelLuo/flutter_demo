@@ -8,6 +8,7 @@ import 'package:flutter_picker_demo/pages/many_request/page.dart';
 import 'package:flutter_picker_demo/pages/nested_scroll_view_list/page.dart';
 import 'package:flutter_picker_demo/pages/picker/page.dart';
 import 'package:flutter_picker_demo/pages/transform/page.dart';
+import 'package:flutter_picker_demo/pages/viewport/page.dart';
 
 var routers = <dynamic>[
   HomePage(),
@@ -19,6 +20,7 @@ var routers = <dynamic>[
   NestedScrollViewListPage(),
   CanTouchHeaderPage(),
   ManyRequestPage(),
+  ViewportPage(),
 ];
 
 Map<String, WidgetBuilder> get routerMap {
