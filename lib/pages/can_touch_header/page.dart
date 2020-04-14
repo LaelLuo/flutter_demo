@@ -6,11 +6,7 @@ class CanTouchHeaderPage extends StatelessWidget with Page {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: <Widget>[
-          CustomScrollView(
-            slivers: <Widget>[],
-          ),
-        ],
+        children: <Widget>[],
       ),
     );
   }
